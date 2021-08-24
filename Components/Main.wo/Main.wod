@@ -19,3 +19,19 @@ FavIcon32: ERXFavIcon {
 EntityImg: WOImage {
 	filename = "img/entity128.png";
 }
+
+Form: WOForm {
+}
+
+TextField: WOTextField {
+	value = formText;
+}
+
+Submit: WOSubmitButton {
+	action = echo;
+}
+
+TextValue: WOString {
+	value = formText;
+	valueWhenEmpty = "Enter something!";
+}
